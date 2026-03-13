@@ -1,0 +1,11 @@
+switch_all_decoders:
+  name: Switch All Decoders
+  description: Switch all decoders to the same source.
+  fields:
+    source:
+      name: Source
+      description: The encoder name to switch all decoders to.
+      required: true
+      example: "Android TV 1"
+      selector:
+        text:
