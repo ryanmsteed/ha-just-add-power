@@ -1,0 +1,77 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add First Encoder (Source)",
+        "description": "Enter the name and channel number of your first Just Add Power encoder. The channel number is the Input # assigned by AMP (e.g., 1 for Input 1).",
+        "data": {
+          "name": "Source Name (e.g., Android TV 1)",
+          "channel": "Channel Number (Input #)"
+        }
+      },
+      "encoder_menu": {
+        "title": "Encoders Added: {count}",
+        "description": "Would you like to add another encoder or proceed to adding decoders?",
+        "menu_options": {
+          "add_encoder": "Add another encoder",
+          "add_decoder": "Add a decoder (display)"
+        }
+      },
+      "add_encoder": {
+        "title": "Add Encoder (Source)",
+        "data": {
+          "name": "Source Name",
+          "channel": "Channel Number (Input #)"
+        }
+      },
+      "add_decoder": {
+        "title": "Add Decoder (Display)",
+        "description": "Enter the name and IP address of the decoder on the JAP VLAN.",
+        "data": {
+          "name": "Display Name (e.g., Living Room)",
+          "host": "Decoder IP Address"
+        }
+      },
+      "decoder_menu": {
+        "title": "Decoders Added: {count}",
+        "description": "Would you like to add another decoder or finish setup?",
+        "menu_options": {
+          "add_another_decoder": "Add another decoder",
+          "finish": "Finish setup"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to decoder. Verify IP address and that the device is on the network."
+    },
+    "abort": {
+      "already_configured": "Just Add Power is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Just Add Power Options",
+        "menu_options": {
+          "add_encoder": "Add an encoder",
+          "add_decoder": "Add a decoder",
+          "done": "Done"
+        }
+      },
+      "add_encoder": {
+        "title": "Add Encoder",
+        "data": {
+          "name": "Source Name",
+          "channel": "Channel Number (Input #)"
+        }
+      },
+      "add_decoder": {
+        "title": "Add Decoder",
+        "data": {
+          "name": "Display Name",
+          "host": "Decoder IP Address"
+        }
+      }
+    }
+  }
+}
